@@ -1,0 +1,13 @@
+{
+  "name": "sum_of_n_numbers",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/sum_of_n_numbers",
+    "ssh": "git@github.com:grgshiji/sum_of_n_numbers.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
